@@ -1,5 +1,9 @@
 .idea/
 .gradle/
+.settings/
+.vscode/
+gradle/
+.project
 out/
 build/
 *.iml

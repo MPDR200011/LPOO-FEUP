@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'tk.mpdr.TP3'
+group 'com.aor.numbers'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
@@ -13,4 +13,5 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '2.25.0'
 }
